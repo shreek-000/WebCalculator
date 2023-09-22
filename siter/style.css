@@ -1,0 +1,333 @@
+body {
+    background-color: darkgray;
+    margin-top: 230px;
+
+}
+
+#calculator-display {
+    width:9.2%; /* širina displeja */
+    margin: 0 auto; /* centriranje horizontalno */
+    margin-bottom: 4px;
+    height: 10px;
+    background-color: #f0f0f0;
+    font-size: 24px; 
+    text-align: right;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 6px solid #ccc;
+  }
+.b0 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b5 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b6 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b7 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b8 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .b9 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .jednako {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .djeljenje {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 3px;
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .mnozenje {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 3px;
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .oduzimanje {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 3px;
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .sabiranje {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .zarez {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-bottom: 6px solid #ccc;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  .reset {
+    display: inline-block;
+    padding: 10px 56px;
+    margin-top: 3px;
+    background-color:darkblue; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-bottom: 6px solid #ccc;
+  }
+  .footer {
+    margin-bottom: 3px;
+    margin-top: 330px;
+  }

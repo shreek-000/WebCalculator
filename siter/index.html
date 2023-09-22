@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <center>
+        <h1>Welcome to the Calculator</h1>
+    </center>
+    <center>
+        <div id="calculator-display">0</div>
+    </center>
+    
+    <center>
+        <button class="b7" onclick="addToDisplay('7')">7</button>
+        <button class="b8" onclick="addToDisplay('8')">8</button>
+        <button class="b9" onclick="addToDisplay('9')">9</button>
+        <button class="djeljenje" onclick="addOperator('÷')">÷</button>
+    </center>
+    <center>
+        <button class="b4" onclick="addToDisplay('4')">4</button>
+        <button class="b5" onclick="addToDisplay('5')">5</button>
+        <button class="b6" onclick="addToDisplay('6')">6</button>
+        <button class="mnozenje" onclick="addOperator('x')">x</button>
+    </center>
+    <center>
+        <button class="b1" onclick="addToDisplay('1')">1</button>
+        <button class="b2" onclick="addToDisplay('2')">2</button>
+        <button class="b3" onclick="addToDisplay('3')">3</button>
+        <button class="oduzimanje" onclick="addOperator('-')">-</button>
+    </center>
+    <center>
+        <button class="b0" onclick="addToDisplay('0')">0</button>
+        <button class="jednako" onclick="calculate()">=</button>
+        <button class="zarez">,</button>
+        <button class="sabiranje" onclick="addOperator('+')">+</button>
+
+    </center>
+    <center>
+        <button class="reset" onclick="resetDisplay()">Reset Button</button>
+    </center>
+    <center>
+    <footer class="footer">
+        <p>This Calculator was prorgammed by Licensed developer Dr.Shreek ®</p>
+    </footer>
+    </center>  
+    
+   
+   <script>
+      var display = document.getElementById('calculator-display');
+      var currentInput = ''; 
+      var operator = ''; 
+      var firstOperand = ''; 
+  
+      
+      function addToDisplay(value) {
+        currentInput += value; 
+        display.textContent = currentInput; 
+      }
+  
+      
+      function addOperator(op) {
+        firstOperand = currentInput; 
+        operator = op; 
+        currentInput = ''; 
+        display.textContent = op; 
+      }
+  
+      
+      function calculate() {
+        var secondOperand = currentInput; 
+        var result;
+  
+        
+        if (operator === '+') {
+          result = parseFloat(firstOperand) + parseFloat(secondOperand);
+        } else if (operator === '-') {
+            if (secondOperand > firstOperand) {
+                result = "-"+ parseFloat(firstOperand) - parseFloat(secondOperand);
+            }
+
+          result = parseFloat(firstOperand) - parseFloat(secondOperand);
+        } else if (operator === '÷') {
+          result = parseFloat(firstOperand) / parseFloat(secondOperand);
+        } else if (operator === 'x') {
+          result = parseFloat(firstOperand) * parseFloat(secondOperand);
+        }
+  
+        
+        display.textContent = result;
+        currentInput = result.toString(); 
+        operator = ''; 
+      }
+  
+     
+      function resetDisplay() {
+        currentInput = ''; 
+        operator = ''; 
+        firstOperand = ''; 
+        display.textContent = '0'; 
+      }
+    </script>
+
+    
+</body>
+</html>
